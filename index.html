@@ -66,6 +66,8 @@
   a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   footer { color: var(--muted); font-size: 14px; margin-top: 28px; text-align: center; }
   footer a { color: var(--muted); }
+  .langs { margin-top: 8px; }
+  .langs a[aria-current] { color: var(--text); text-decoration: none; font-weight: 600; }
 </style>
 </head>
 <body>
@@ -73,7 +75,7 @@
   <div class="card">
     <p class="eyebrow">Polywars</p>
     <h1>Privacy Policy</h1>
-    <p class="date">Effective date: 2 October 2026</p>
+    <p class="date">Effective date: 8 October 2026</p>
 
     <p>Polywars ("the game") is developed and published by Tamas Barko (BKO Project 91), "we" in this policy. This policy explains what information the game handles and how.</p>
 
@@ -87,10 +89,10 @@
     <ul>
       <li>your level, experience and skill points</li>
       <li>the skills you have unlocked</li>
-      <li>the artifacts you have unlocked and equipped, and the builds you have discovered</li>
+      <li>the artifacts you have unlocked and equipped, the builds you have discovered, and your custom builds</li>
       <li>your in-game statistics, such as waves reached and enemies defeated</li>
       <li>which tutorials you have already seen</li>
-      <li>your settings, such as sound, music and haptics</li>
+      <li>your settings, such as sound, music, haptics and language</li>
     </ul>
     <p>This information never leaves your device, and we cannot see it. You can erase it at any time with Options &rarr; Reset in the game, or by deleting the app. In the web version of the game, the same save is kept in your browser's local storage instead, and clearing your browser's site data for the game erases it.</p>
 
@@ -113,7 +115,8 @@
     <h2>Contact</h2>
     <p>Questions about this policy: <a href="mailto:bkoproject91@gmail.com">bkoproject91@gmail.com</a></p>
   </div>
-  <footer><a href="support.html">Support</a> &middot; &copy; 2026 BKO Project 91</footer>
+  <footer><a href="support.html">Support</a> &middot; &copy; 2026 BKO Project 91
+    <nav class="langs" aria-label="Language"><a href="./" aria-current="page">English</a> &middot; <a href="fr/" lang="fr">Français</a> &middot; <a href="es/" lang="es">Español</a> &middot; <a href="zh/" lang="zh-Hans">中文</a> &middot; <a href="hu/" lang="hu">Magyar</a></nav></footer>
 </main>
 </body>
 </html>
